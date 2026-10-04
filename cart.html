@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Cart | Mini Amazon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <a href="index.html" class="logo">⚡ MiniAmazon</a>
+    <div class="nav-links">
+      <a href="index.html" class="cart-icon-btn">← Back to Shop</a>
+    </div>
+  </header>
+
+  <!-- Cart Content -->
+  <main class="container">
+    <h1 class="section-title">Shopping Cart</h1>
+    
+    <div class="cart-table-wrapper">
+      <div id="cartItemsContainer">
+        <!-- Cart Items rendered dynamically -->
+      </div>
+
+      <div class="cart-summary">
+        <div>
+          <span>Total Amount: </span>
+          <span id="totalPrice" class="total-price">$0.00</span>
+        </div>
+        <button id="checkoutBtn" class="btn-checkout">Checkout Now</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- JavaScript Files -->
+  <script src="js/data.js"></script>
+  <script src="js/cart.js"></script>
+</body>
+</html>
